@@ -1,0 +1,17 @@
+# [723A - The New Year: Meeting Friends](https://codeforces.com/contest/723/problem/A)
+
+![Verdict](https://img.shields.io/badge/Verdict-Accepted-brightgreen.svg) ![Rating](https://img.shields.io/badge/Rating-800-gray.svg)
+
+## Problem Information
+- **Contest:** [723](https://codeforces.com/contest/723)
+- **Problem Index:** A
+- **Rating:** 800
+- **Tags:** `implementation`, `math`, `sortings`
+- **Primary Solution:** [`solution.cpp`](solution.cpp)
+
+## Submissions History
+
+| # | Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
+|---|---------------|---------|----------|------|--------|--------------|------|
+| 1 | 204931599 | Accepted | C++17 (GCC 7-32) | 15 ms | 0 KB | 2023-05-07 06:17 | [#204931599](https://codeforces.com/contest/723/submission/204931599) |
+| 2 | 204931314 | Accepted | C++17 (GCC 7-32) | 15 ms | 0 KB | 2023-05-07 06:14 | [#204931314](https://codeforces.com/contest/723/submission/204931314) |
