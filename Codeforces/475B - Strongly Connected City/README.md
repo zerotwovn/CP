@@ -7,10 +7,10 @@
 - **Problem Index:** B
 - **Rating:** 1400
 - **Tags:** `brute force`, `dfs and similar`, `graphs`, `implementation`
-- **Primary Solution:** [`solution.cpp`](solution.cpp)
+- **Solution:** [`solution.cpp`](solution.cpp)
 
-## Submissions History
+## Accepted Submission Details
 
-| # | Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
-|---|---------------|---------|----------|------|--------|--------------|------|
-| 1 | 177938281 | Accepted | C++17 (GCC 7-32) | 15 ms | 0 KB | 2022-10-26 02:04 | [#177938281](https://codeforces.com/contest/475/submission/177938281) |
+| Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
+|---------------|---------|----------|------|--------|--------------|------|
+| 177938281 | Accepted | C++17 (GCC 7-32) | 15 ms | 0 KB | 2022-10-26 02:04 UTC | [#177938281](https://codeforces.com/contest/475/submission/177938281) |

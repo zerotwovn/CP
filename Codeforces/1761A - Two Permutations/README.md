@@ -7,10 +7,10 @@
 - **Problem Index:** A
 - **Rating:** 800
 - **Tags:** `brute force`, `constructive algorithms`
-- **Primary Solution:** [`solution.cpp`](solution.cpp)
+- **Solution:** [`solution.cpp`](solution.cpp)
 
-## Submissions History
+## Accepted Submission Details
 
-| # | Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
-|---|---------------|---------|----------|------|--------|--------------|------|
-| 1 | 184159361 | Accepted | C++17 (GCC 7-32) | 46 ms | 0 KB | 2022-12-07 03:15 | [#184159361](https://codeforces.com/contest/1761/submission/184159361) |
+| Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
+|---------------|---------|----------|------|--------|--------------|------|
+| 184159361 | Accepted | C++17 (GCC 7-32) | 46 ms | 0 KB | 2022-12-07 03:15 UTC | [#184159361](https://codeforces.com/contest/1761/submission/184159361) |

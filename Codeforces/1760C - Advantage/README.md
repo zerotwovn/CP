@@ -7,10 +7,10 @@
 - **Problem Index:** C
 - **Rating:** 800
 - **Tags:** `data structures`, `implementation`, `sortings`
-- **Primary Solution:** [`solution.cpp`](solution.cpp)
+- **Solution:** [`solution.cpp`](solution.cpp)
 
-## Submissions History
+## Accepted Submission Details
 
-| # | Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
-|---|---------------|---------|----------|------|--------|--------------|------|
-| 1 | 181946008 | Accepted | C++17 (GCC 7-32) | 436 ms | 3100 KB | 2022-11-21 15:04 | [#181946008](https://codeforces.com/contest/1760/submission/181946008) |
+| Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
+|---------------|---------|----------|------|--------|--------------|------|
+| 181946008 | Accepted | C++17 (GCC 7-32) | 436 ms | 3100 KB | 2022-11-21 15:04 UTC | [#181946008](https://codeforces.com/contest/1760/submission/181946008) |

@@ -7,10 +7,10 @@
 - **Problem Index:** B
 - **Rating:** 1000
 - **Tags:** `brute force`, `dp`, `greedy`, `implementation`, `two pointers`
-- **Primary Solution:** [`solution.cpp`](solution.cpp)
+- **Solution:** [`solution.cpp`](solution.cpp)
 
-## Submissions History
+## Accepted Submission Details
 
-| # | Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
-|---|---------------|---------|----------|------|--------|--------------|------|
-| 1 | 174059190 | Accepted | C++17 (GCC 7-32) | 15 ms | 0 KB | 2022-09-30 08:57 | [#174059190](https://codeforces.com/contest/1359/submission/174059190) |
+| Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
+|---------------|---------|----------|------|--------|--------------|------|
+| 174059190 | Accepted | C++17 (GCC 7-32) | 15 ms | 0 KB | 2022-09-30 08:57 UTC | [#174059190](https://codeforces.com/contest/1359/submission/174059190) |

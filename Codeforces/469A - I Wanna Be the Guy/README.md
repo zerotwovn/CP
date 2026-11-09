@@ -7,10 +7,10 @@
 - **Problem Index:** A
 - **Rating:** 800
 - **Tags:** `greedy`, `implementation`
-- **Primary Solution:** [`solution.cpp`](solution.cpp)
+- **Solution:** [`solution.cpp`](solution.cpp)
 
-## Submissions History
+## Accepted Submission Details
 
-| # | Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
-|---|---------------|---------|----------|------|--------|--------------|------|
-| 1 | 183825559 | Accepted | C++17 (GCC 7-32) | 15 ms | 0 KB | 2022-12-04 11:55 | [#183825559](https://codeforces.com/contest/469/submission/183825559) |
+| Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
+|---------------|---------|----------|------|--------|--------------|------|
+| 183825559 | Accepted | C++17 (GCC 7-32) | 15 ms | 0 KB | 2022-12-04 11:55 UTC | [#183825559](https://codeforces.com/contest/469/submission/183825559) |

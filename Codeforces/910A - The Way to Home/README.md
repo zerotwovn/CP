@@ -7,10 +7,10 @@
 - **Problem Index:** A
 - **Rating:** 800
 - **Tags:** `dfs and similar`, `dp`, `greedy`, `implementation`
-- **Primary Solution:** [`solution.cpp`](solution.cpp)
+- **Solution:** [`solution.cpp`](solution.cpp)
 
-## Submissions History
+## Accepted Submission Details
 
-| # | Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
-|---|---------------|---------|----------|------|--------|--------------|------|
-| 1 | 177939020 | Accepted | C++17 (GCC 7-32) | 15 ms | 0 KB | 2022-10-26 02:22 | [#177939020](https://codeforces.com/contest/910/submission/177939020) |
+| Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
+|---------------|---------|----------|------|--------|--------------|------|
+| 177939020 | Accepted | C++17 (GCC 7-32) | 15 ms | 0 KB | 2022-10-26 02:22 UTC | [#177939020](https://codeforces.com/contest/910/submission/177939020) |

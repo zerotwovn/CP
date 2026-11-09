@@ -7,11 +7,10 @@
 - **Problem Index:** C
 - **Rating:** 1000
 - **Tags:** `binary search`, `implementation`, `two pointers`
-- **Primary Solution:** [`solution.cpp`](solution.cpp)
+- **Solution:** [`solution.cpp`](solution.cpp)
 
-## Submissions History
+## Accepted Submission Details
 
-| # | Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
-|---|---------------|---------|----------|------|--------|--------------|------|
-| 1 | 174062704 | Accepted | C++17 (GCC 7-32) | 280 ms | 3100 KB | 2022-09-30 09:34 | [#174062704](https://codeforces.com/contest/978/submission/174062704) |
-| 2 | 174061303 | Accepted | C++17 (GCC 7-32) | 249 ms | 3100 KB | 2022-09-30 09:19 | [#174061303](https://codeforces.com/contest/978/submission/174061303) |
+| Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
+|---------------|---------|----------|------|--------|--------------|------|
+| 174061303 | Accepted | C++17 (GCC 7-32) | 249 ms | 3100 KB | 2022-09-30 09:19 UTC | [#174061303](https://codeforces.com/contest/978/submission/174061303) |

@@ -7,12 +7,10 @@
 - **Problem Index:** A
 - **Rating:** 900
 - **Tags:** `brute force`, `dp`, `implementation`
-- **Primary Solution:** [`solution.cpp`](solution.cpp)
+- **Solution:** [`solution.cpp`](solution.cpp)
 
-## Submissions History
+## Accepted Submission Details
 
-| # | Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
-|---|---------------|---------|----------|------|--------|--------------|------|
-| 1 | 186413329 | Accepted | C++17 (GCC 7-32) | 265 ms | 400 KB | 2022-12-23 02:17 | [#186413329](https://codeforces.com/contest/580/submission/186413329) |
-| 2 | 186413220 | Wrong Answer | C++17 (GCC 7-32) | 0 ms | 0 KB | 2022-12-23 02:14 | [#186413220](https://codeforces.com/contest/580/submission/186413220) |
-| 3 | 186412804 | Wrong Answer | C++17 (GCC 7-32) | 15 ms | 0 KB | 2022-12-23 02:02 | [#186412804](https://codeforces.com/contest/580/submission/186412804) |
+| Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
+|---------------|---------|----------|------|--------|--------------|------|
+| 186413329 | Accepted | C++17 (GCC 7-32) | 265 ms | 400 KB | 2022-12-23 02:17 UTC | [#186413329](https://codeforces.com/contest/580/submission/186413329) |

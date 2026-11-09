@@ -7,10 +7,10 @@
 - **Problem Index:** D
 - **Rating:** 1900
 - **Tags:** `brute force`, `data structures`, `dp`, `implementation`, `two pointers`
-- **Primary Solution:** [`solution.cpp`](solution.cpp)
+- **Solution:** [`solution.cpp`](solution.cpp)
 
-## Submissions History
+## Accepted Submission Details
 
-| # | Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
-|---|---------------|---------|----------|------|--------|--------------|------|
-| 1 | 196474285 | Accepted | C++17 (GCC 7-32) | 1387 ms | 19800 KB | 2023-03-08 07:29 | [#196474285](https://codeforces.com/contest/1200/submission/196474285) |
+| Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
+|---------------|---------|----------|------|--------|--------------|------|
+| 196474285 | Accepted | C++17 (GCC 7-32) | 1387 ms | 19800 KB | 2023-03-08 07:29 UTC | [#196474285](https://codeforces.com/contest/1200/submission/196474285) |

@@ -7,10 +7,10 @@
 - **Problem Index:** C
 - **Rating:** 2100
 - **Tags:** `data structures`, `geometry`, `greedy`
-- **Primary Solution:** [`solution.cpp`](solution.cpp)
+- **Solution:** [`solution.cpp`](solution.cpp)
 
-## Submissions History
+## Accepted Submission Details
 
-| # | Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
-|---|---------------|---------|----------|------|--------|--------------|------|
-| 1 | 254781798 | Accepted | C++17 (GCC 7-32) | 2687 ms | 23500 KB | 2024-04-03 01:53 | [#254781798](https://codeforces.com/contest/1299/submission/254781798) |
+| Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
+|---------------|---------|----------|------|--------|--------------|------|
+| 254781798 | Accepted | C++17 (GCC 7-32) | 2687 ms | 23500 KB | 2024-04-03 01:53 UTC | [#254781798](https://codeforces.com/contest/1299/submission/254781798) |

@@ -7,10 +7,10 @@
 - **Problem Index:** C
 - **Rating:** 1200
 - **Tags:** `sortings`, `two pointers`
-- **Primary Solution:** [`solution.cpp`](solution.cpp)
+- **Solution:** [`solution.cpp`](solution.cpp)
 
-## Submissions History
+## Accepted Submission Details
 
-| # | Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
-|---|---------------|---------|----------|------|--------|--------------|------|
-| 1 | 174063210 | Accepted | C++17 (GCC 7-32) | 78 ms | 1600 KB | 2022-09-30 09:40 | [#174063210](https://codeforces.com/contest/1133/submission/174063210) |
+| Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
+|---------------|---------|----------|------|--------|--------------|------|
+| 174063210 | Accepted | C++17 (GCC 7-32) | 78 ms | 1600 KB | 2022-09-30 09:40 UTC | [#174063210](https://codeforces.com/contest/1133/submission/174063210) |

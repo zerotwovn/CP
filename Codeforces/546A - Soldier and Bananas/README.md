@@ -7,11 +7,10 @@
 - **Problem Index:** A
 - **Rating:** 800
 - **Tags:** `brute force`, `implementation`, `math`
-- **Primary Solution:** [`solution.cpp`](solution.cpp)
+- **Solution:** [`solution.cpp`](solution.cpp)
 
-## Submissions History
+## Accepted Submission Details
 
-| # | Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
-|---|---------------|---------|----------|------|--------|--------------|------|
-| 1 | 183580389 | Accepted | C++17 (GCC 7-32) | 15 ms | 0 KB | 2022-12-02 09:57 | [#183580389](https://codeforces.com/contest/546/submission/183580389) |
-| 2 | 183580208 | Wrong Answer | C++17 (GCC 7-32) | 15 ms | 0 KB | 2022-12-02 09:55 | [#183580208](https://codeforces.com/contest/546/submission/183580208) |
+| Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
+|---------------|---------|----------|------|--------|--------------|------|
+| 183580389 | Accepted | C++17 (GCC 7-32) | 15 ms | 0 KB | 2022-12-02 09:57 UTC | [#183580389](https://codeforces.com/contest/546/submission/183580389) |

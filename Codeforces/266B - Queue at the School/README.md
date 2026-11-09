@@ -7,10 +7,10 @@
 - **Problem Index:** B
 - **Rating:** 800
 - **Tags:** `constructive algorithms`, `graph matchings`, `implementation`, `shortest paths`
-- **Primary Solution:** [`solution.cpp`](solution.cpp)
+- **Solution:** [`solution.cpp`](solution.cpp)
 
-## Submissions History
+## Accepted Submission Details
 
-| # | Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
-|---|---------------|---------|----------|------|--------|--------------|------|
-| 1 | 183601433 | Accepted | C++17 (GCC 7-32) | 30 ms | 0 KB | 2022-12-02 13:28 | [#183601433](https://codeforces.com/contest/266/submission/183601433) |
+| Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
+|---------------|---------|----------|------|--------|--------------|------|
+| 183601433 | Accepted | C++17 (GCC 7-32) | 30 ms | 0 KB | 2022-12-02 13:28 UTC | [#183601433](https://codeforces.com/contest/266/submission/183601433) |

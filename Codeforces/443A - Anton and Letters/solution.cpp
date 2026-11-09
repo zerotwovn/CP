@@ -11,7 +11,7 @@
  * Language: C++17 (GCC 7-32)
  * Time: 15 ms
  * Memory: 100 KB
- * Link: https://codeforces.com/contest/443/submission/184054430
+ * Codeforces Link: https://codeforces.com/contest/443/submission/184054430
  */
 
 #include <bits/stdc++.h>
@@ -37,4 +37,3 @@ int main()
     cout << s;
     return 0;
 }
-    

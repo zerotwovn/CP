@@ -7,10 +7,10 @@
 - **Problem Index:** C
 - **Rating:** 1400
 - **Tags:** `dp`, `greedy`, `implementation`
-- **Primary Solution:** [`solution.cpp`](solution.cpp)
+- **Solution:** [`solution.cpp`](solution.cpp)
 
-## Submissions History
+## Accepted Submission Details
 
-| # | Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
-|---|---------------|---------|----------|------|--------|--------------|------|
-| 1 | 174033460 | Accepted | C++17 (GCC 7-32) | 15 ms | 0 KB | 2022-09-30 01:58 | [#174033460](https://codeforces.com/contest/489/submission/174033460) |
+| Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
+|---------------|---------|----------|------|--------|--------------|------|
+| 174033460 | Accepted | C++17 (GCC 7-32) | 15 ms | 0 KB | 2022-09-30 01:58 UTC | [#174033460](https://codeforces.com/contest/489/submission/174033460) |

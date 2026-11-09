@@ -1,5 +1,6 @@
-# Cache & Secrets
+# Cache, Scripts & Secrets
 .cache/
+scripts/
 cookies.json
 *.secret
 __pycache__/

@@ -7,10 +7,10 @@
 - **Problem Index:** A
 - **Rating:** 800
 - **Tags:** `brute force`
-- **Primary Solution:** [`solution.cpp`](solution.cpp)
+- **Solution:** [`solution.cpp`](solution.cpp)
 
-## Submissions History
+## Accepted Submission Details
 
-| # | Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
-|---|---------------|---------|----------|------|--------|--------------|------|
-| 1 | 184079680 | Accepted | C++17 (GCC 7-32) | 30 ms | 0 KB | 2022-12-06 09:23 | [#184079680](https://codeforces.com/contest/268/submission/184079680) |
+| Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
+|---------------|---------|----------|------|--------|--------------|------|
+| 184079680 | Accepted | C++17 (GCC 7-32) | 30 ms | 0 KB | 2022-12-06 09:23 UTC | [#184079680](https://codeforces.com/contest/268/submission/184079680) |

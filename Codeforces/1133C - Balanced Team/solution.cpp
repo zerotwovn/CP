@@ -11,7 +11,7 @@
  * Language: C++17 (GCC 7-32)
  * Time: 78 ms
  * Memory: 1600 KB
- * Link: https://codeforces.com/contest/1133/submission/174063210
+ * Codeforces Link: https://codeforces.com/contest/1133/submission/174063210
  */
 
 #include <iostream>

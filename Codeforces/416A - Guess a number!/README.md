@@ -7,10 +7,10 @@
 - **Problem Index:** A
 - **Rating:** 1400
 - **Tags:** `greedy`, `implementation`, `two pointers`
-- **Primary Solution:** [`solution.cpp`](solution.cpp)
+- **Solution:** [`solution.cpp`](solution.cpp)
 
-## Submissions History
+## Accepted Submission Details
 
-| # | Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
-|---|---------------|---------|----------|------|--------|--------------|------|
-| 1 | 174060114 | Accepted | C++17 (GCC 7-32) | 46 ms | 0 KB | 2022-09-30 09:06 | [#174060114](https://codeforces.com/contest/416/submission/174060114) |
+| Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
+|---------------|---------|----------|------|--------|--------------|------|
+| 174060114 | Accepted | C++17 (GCC 7-32) | 46 ms | 0 KB | 2022-09-30 09:06 UTC | [#174060114](https://codeforces.com/contest/416/submission/174060114) |

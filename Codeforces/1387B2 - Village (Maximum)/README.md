@@ -7,11 +7,10 @@
 - **Problem Index:** B2
 - **Rating:** 2500
 - **Tags:** `*special`, `dfs and similar`, `trees`
-- **Primary Solution:** [`solution.cpp`](solution.cpp)
+- **Solution:** [`solution.cpp`](solution.cpp)
 
-## Submissions History
+## Accepted Submission Details
 
-| # | Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
-|---|---------------|---------|----------|------|--------|--------------|------|
-| 1 | 226449409 | Accepted | C++17 (GCC 7-32) | 108 ms | 13600 KB | 2023-10-03 14:20 | [#226449409](https://codeforces.com/contest/1387/submission/226449409) |
-| 2 | 226399664 | Accepted | C++17 (GCC 7-32) | 93 ms | 8700 KB | 2023-10-03 08:38 | [#226399664](https://codeforces.com/contest/1387/submission/226399664) |
+| Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
+|---------------|---------|----------|------|--------|--------------|------|
+| 226399664 | Accepted | C++17 (GCC 7-32) | 93 ms | 8700 KB | 2023-10-03 08:38 UTC | [#226399664](https://codeforces.com/contest/1387/submission/226399664) |

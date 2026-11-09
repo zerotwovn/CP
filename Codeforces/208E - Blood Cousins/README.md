@@ -7,10 +7,10 @@
 - **Problem Index:** E
 - **Rating:** 2100
 - **Tags:** `binary search`, `data structures`, `dfs and similar`, `trees`
-- **Primary Solution:** [`solution.cpp`](solution.cpp)
+- **Solution:** [`solution.cpp`](solution.cpp)
 
-## Submissions History
+## Accepted Submission Details
 
-| # | Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
-|---|---------------|---------|----------|------|--------|--------------|------|
-| 1 | 233676957 | Accepted | C++17 (GCC 7-32) | 1432 ms | 44700 KB | 2023-11-21 11:18 | [#233676957](https://codeforces.com/contest/208/submission/233676957) |
+| Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
+|---------------|---------|----------|------|--------|--------------|------|
+| 233676957 | Accepted | C++17 (GCC 7-32) | 1432 ms | 44700 KB | 2023-11-21 11:18 UTC | [#233676957](https://codeforces.com/contest/208/submission/233676957) |

@@ -7,10 +7,10 @@
 - **Problem Index:** A
 - **Rating:** 800
 - **Tags:** `constructive algorithms`, `implementation`, `math`
-- **Primary Solution:** [`solution.cpp`](solution.cpp)
+- **Solution:** [`solution.cpp`](solution.cpp)
 
-## Submissions History
+## Accepted Submission Details
 
-| # | Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
-|---|---------------|---------|----------|------|--------|--------------|------|
-| 1 | 183970321 | Accepted | C++17 (GCC 7-32) | 30 ms | 0 KB | 2022-12-05 09:27 | [#183970321](https://codeforces.com/contest/148/submission/183970321) |
+| Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
+|---------------|---------|----------|------|--------|--------------|------|
+| 183970321 | Accepted | C++17 (GCC 7-32) | 30 ms | 0 KB | 2022-12-05 09:27 UTC | [#183970321](https://codeforces.com/contest/148/submission/183970321) |

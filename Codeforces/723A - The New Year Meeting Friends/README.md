@@ -7,11 +7,10 @@
 - **Problem Index:** A
 - **Rating:** 800
 - **Tags:** `implementation`, `math`, `sortings`
-- **Primary Solution:** [`solution.cpp`](solution.cpp)
+- **Solution:** [`solution.cpp`](solution.cpp)
 
-## Submissions History
+## Accepted Submission Details
 
-| # | Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
-|---|---------------|---------|----------|------|--------|--------------|------|
-| 1 | 204931599 | Accepted | C++17 (GCC 7-32) | 15 ms | 0 KB | 2023-05-07 06:17 | [#204931599](https://codeforces.com/contest/723/submission/204931599) |
-| 2 | 204931314 | Accepted | C++17 (GCC 7-32) | 15 ms | 0 KB | 2023-05-07 06:14 | [#204931314](https://codeforces.com/contest/723/submission/204931314) |
+| Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
+|---------------|---------|----------|------|--------|--------------|------|
+| 204931599 | Accepted | C++17 (GCC 7-32) | 15 ms | 0 KB | 2023-05-07 06:17 UTC | [#204931599](https://codeforces.com/contest/723/submission/204931599) |

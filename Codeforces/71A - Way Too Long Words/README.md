@@ -7,11 +7,10 @@
 - **Problem Index:** A
 - **Rating:** 800
 - **Tags:** `strings`
-- **Primary Solution:** [`solution.cpp`](solution.cpp)
+- **Solution:** [`solution.cpp`](solution.cpp)
 
-## Submissions History
+## Accepted Submission Details
 
-| # | Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
-|---|---------------|---------|----------|------|--------|--------------|------|
-| 1 | 174057795 | Accepted | C++17 (GCC 7-32) | 15 ms | 0 KB | 2022-09-30 08:43 | [#174057795](https://codeforces.com/contest/71/submission/174057795) |
-| 2 | 174057678 | Wrong Answer | C++17 (GCC 7-32) | 0 ms | 0 KB | 2022-09-30 08:41 | [#174057678](https://codeforces.com/contest/71/submission/174057678) |
+| Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
+|---------------|---------|----------|------|--------|--------------|------|
+| 174057795 | Accepted | C++17 (GCC 7-32) | 15 ms | 0 KB | 2022-09-30 08:43 UTC | [#174057795](https://codeforces.com/contest/71/submission/174057795) |

@@ -7,10 +7,10 @@
 - **Problem Index:** A
 - **Rating:** 1100
 - **Tags:** `greedy`, `hashing`, `strings`
-- **Primary Solution:** [`solution.cpp`](solution.cpp)
+- **Solution:** [`solution.cpp`](solution.cpp)
 
-## Submissions History
+## Accepted Submission Details
 
-| # | Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
-|---|---------------|---------|----------|------|--------|--------------|------|
-| 1 | 182415641 | Accepted | C++17 (GCC 7-32) | 46 ms | 0 KB | 2022-11-25 02:14 | [#182415641](https://codeforces.com/contest/525/submission/182415641) |
+| Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
+|---------------|---------|----------|------|--------|--------------|------|
+| 182415641 | Accepted | C++17 (GCC 7-32) | 46 ms | 0 KB | 2022-11-25 02:14 UTC | [#182415641](https://codeforces.com/contest/525/submission/182415641) |

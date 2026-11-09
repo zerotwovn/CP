@@ -7,10 +7,10 @@
 - **Problem Index:** B
 - **Rating:** 1200
 - **Tags:** `data structures`, `dp`, `implementation`, `two pointers`
-- **Primary Solution:** [`solution.cpp`](solution.cpp)
+- **Solution:** [`solution.cpp`](solution.cpp)
 
-## Submissions History
+## Accepted Submission Details
 
-| # | Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
-|---|---------------|---------|----------|------|--------|--------------|------|
-| 1 | 174059618 | Accepted | C++17 (GCC 7-32) | 46 ms | 1200 KB | 2022-09-30 09:02 | [#174059618](https://codeforces.com/contest/961/submission/174059618) |
+| Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
+|---------------|---------|----------|------|--------|--------------|------|
+| 174059618 | Accepted | C++17 (GCC 7-32) | 46 ms | 1200 KB | 2022-09-30 09:02 UTC | [#174059618](https://codeforces.com/contest/961/submission/174059618) |

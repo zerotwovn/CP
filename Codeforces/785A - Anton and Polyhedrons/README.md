@@ -7,10 +7,10 @@
 - **Problem Index:** A
 - **Rating:** 800
 - **Tags:** `implementation`, `strings`
-- **Primary Solution:** [`solution.cpp`](solution.cpp)
+- **Solution:** [`solution.cpp`](solution.cpp)
 
-## Submissions History
+## Accepted Submission Details
 
-| # | Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
-|---|---------------|---------|----------|------|--------|--------------|------|
-| 1 | 184102898 | Accepted | C++17 (GCC 7-32) | 390 ms | 4700 KB | 2022-12-06 13:34 | [#184102898](https://codeforces.com/contest/785/submission/184102898) |
+| Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
+|---------------|---------|----------|------|--------|--------------|------|
+| 184102898 | Accepted | C++17 (GCC 7-32) | 390 ms | 4700 KB | 2022-12-06 13:34 UTC | [#184102898](https://codeforces.com/contest/785/submission/184102898) |

@@ -7,10 +7,10 @@
 - **Problem Index:** A
 - **Rating:** 800
 - **Tags:** `implementation`
-- **Primary Solution:** [`solution.cpp`](solution.cpp)
+- **Solution:** [`solution.cpp`](solution.cpp)
 
-## Submissions History
+## Accepted Submission Details
 
-| # | Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
-|---|---------------|---------|----------|------|--------|--------------|------|
-| 1 | 395537104 | Accepted | C++17 (GCC 7-32) | 46 ms | 0 KB | 2026-10-22 05:38 | [#395537104](https://codeforces.com/contest/1742/submission/395537104) |
+| Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
+|---------------|---------|----------|------|--------|--------------|------|
+| 395537104 | Accepted | C++17 (GCC 7-32) | 46 ms | 0 KB | 2026-10-22 05:38 UTC | [#395537104](https://codeforces.com/contest/1742/submission/395537104) |

@@ -11,7 +11,7 @@
  * Language: C++17 (GCC 7-32)
  * Time: 31 ms
  * Memory: 0 KB
- * Link: https://codeforces.com/contest/1760/submission/181921119
+ * Codeforces Link: https://codeforces.com/contest/1760/submission/181921119
  */
 
 #include<bits/stdc++.h>

@@ -7,10 +7,10 @@
 - **Problem Index:** D
 - **Rating:** 1000
 - **Tags:** `implementation`, `two pointers`
-- **Primary Solution:** [`solution.cpp`](solution.cpp)
+- **Solution:** [`solution.cpp`](solution.cpp)
 
-## Submissions History
+## Accepted Submission Details
 
-| # | Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
-|---|---------------|---------|----------|------|--------|--------------|------|
-| 1 | 182415688 | Accepted | C++17 (GCC 7-32) | 77 ms | 1600 KB | 2022-11-25 02:15 | [#182415688](https://codeforces.com/contest/1760/submission/182415688) |
+| Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
+|---------------|---------|----------|------|--------|--------------|------|
+| 182415688 | Accepted | C++17 (GCC 7-32) | 77 ms | 1600 KB | 2022-11-25 02:15 UTC | [#182415688](https://codeforces.com/contest/1760/submission/182415688) |

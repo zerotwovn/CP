@@ -7,10 +7,10 @@
 - **Problem Index:** C
 - **Rating:** 1200
 - **Tags:** `dp`, `greedy`, `two pointers`
-- **Primary Solution:** [`solution.cpp`](solution.cpp)
+- **Solution:** [`solution.cpp`](solution.cpp)
 
-## Submissions History
+## Accepted Submission Details
 
-| # | Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
-|---|---------------|---------|----------|------|--------|--------------|------|
-| 1 | 174059140 | Accepted | C++17 (GCC 7-32) | 77 ms | 1600 KB | 2022-09-30 08:57 | [#174059140](https://codeforces.com/contest/1343/submission/174059140) |
+| Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
+|---------------|---------|----------|------|--------|--------------|------|
+| 174059140 | Accepted | C++17 (GCC 7-32) | 77 ms | 1600 KB | 2022-09-30 08:57 UTC | [#174059140](https://codeforces.com/contest/1343/submission/174059140) |

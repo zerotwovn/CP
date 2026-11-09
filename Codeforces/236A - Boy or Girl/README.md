@@ -7,10 +7,10 @@
 - **Problem Index:** A
 - **Rating:** 800
 - **Tags:** `brute force`, `implementation`, `strings`
-- **Primary Solution:** [`solution.cpp`](solution.cpp)
+- **Solution:** [`solution.cpp`](solution.cpp)
 
-## Submissions History
+## Accepted Submission Details
 
-| # | Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
-|---|---------------|---------|----------|------|--------|--------------|------|
-| 1 | 183573483 | Accepted | C++17 (GCC 7-32) | 62 ms | 100 KB | 2022-12-02 08:47 | [#183573483](https://codeforces.com/contest/236/submission/183573483) |
+| Submission ID | Verdict | Language | Time | Memory | Submitted At | Link |
+|---------------|---------|----------|------|--------|--------------|------|
+| 183573483 | Accepted | C++17 (GCC 7-32) | 62 ms | 100 KB | 2022-12-02 08:47 UTC | [#183573483](https://codeforces.com/contest/236/submission/183573483) |
