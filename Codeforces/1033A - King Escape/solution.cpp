@@ -14,6 +14,21 @@
  * Link: https://codeforces.com/contest/1033/submission/177942212
  */
 
-// Source code pending synchronization.
-// View on Codeforces: https://codeforces.com/contest/1033/submission/177942212
-// Run 'python3 scripts/sync_codeforces.py' to update locally or trigger GitHub Actions.
+#include<iostream>
+
+using namespace std;
+
+ 
+int main()
+{
+    long long n;
+    cin>>n;
+    long long a,b,h,k,x,y;
+    cin>>a>>b; cin>>h>>k; cin>>x>>y;
+    if((h > a && x < a) || (h < a && x > a) || (k > b && y < b) || (k < b && y > b)){
+        cout<<"NO";
+    }
+    else{
+        cout<<"YES"<<endl;
+    }
+}

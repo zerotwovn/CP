@@ -126,35 +126,27 @@ def main():
         print("[+] All submissions cached!")
         return
 
-    completed_count = 0
     total = len(to_fetch)
-
-    def worker(sub):
+    print(f"[*] Starting gentle download of {total} submissions (1 request/sec)...")
+    for i, sub in enumerate(to_fetch, 1):
         sid = sub["id"]
         prob = sub.get("problem", {})
         contest_id = sub.get("contestId", prob.get("contestId", "Unknown"))
         index = prob.get("index", "")
         pname = prob.get("name", "Unknown")
         source = fetch_submission_source(sid, csrf_token, cookie_header)
-        
-        item = dict(sub)
-        item["source"] = source
-        cache_path = os.path.join(SUBMISSIONS_CACHE_DIR, f"{sid}.json")
-        with open(cache_path, "w") as f:
-            json.dump(item, f, indent=2)
-        return sid, f"{contest_id}{index} - {pname}", len(source) if source else 0
+        if source:
+            item = dict(sub)
+            item["source"] = source
+            cache_path = os.path.join(SUBMISSIONS_CACHE_DIR, f"{sid}.json")
+            with open(cache_path, "w") as f:
+                json.dump(item, f, indent=2)
+            print(f"[{i}/{total}] ({i*100//total}%) Sub #{sid} ({contest_id}{index} - {pname}): {len(source)} bytes")
+        else:
+            print(f"[{i}/{total}] ({i*100//total}%) [WARN] Sub #{sid} failed to fetch source.")
+        time.sleep(1.0)
 
-    print(f"[*] Starting download with 3 worker threads...")
-    with ThreadPoolExecutor(max_workers=3) as executor:
-        future_map = {executor.submit(worker, sub): sub for sub in to_fetch}
-        for future in as_completed(future_map):
-            completed_count += 1
-            sid, name, length = future.result()
-            print(f"[{completed_count}/{total}] ({completed_count*100//total}%) Sub #{sid} ({name}): {length} bytes")
-            # small delay between dispatches
-            time.sleep(0.15)
-
-    print("[+] All submissions downloaded and cached successfully!")
+    print("[+] All submissions processed!")
 
 if __name__ == "__main__":
     main()

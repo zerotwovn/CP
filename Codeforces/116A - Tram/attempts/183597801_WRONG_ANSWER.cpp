@@ -14,5 +14,22 @@
  * Link: https://codeforces.com/contest/116/submission/183597801
  */
 
-// Source code pending synchronization.
-// View on Codeforces: https://codeforces.com/contest/116/submission/183597801
+
+#include <bits/stdc++.h>
+
+using namespace std;
+int main()
+{
+    long long n;
+    cin >> n;
+    long long a[n],b[n];
+    for (int i = 0;i < n;i++) {
+        cin >> a[i] >> b[i];
+    }
+    long long s = b[0]-a[0];
+    for (int i = 1;i < n;i++) {
+        s = max(s,s+b[i]-a[i]);
+    }
+    cout <<  s; 
+    return 0;
+}

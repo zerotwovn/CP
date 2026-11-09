@@ -14,6 +14,16 @@
  * Link: https://codeforces.com/contest/1463/submission/174683467
  */
 
-// Source code pending synchronization.
-// View on Codeforces: https://codeforces.com/contest/1463/submission/174683467
-// Run 'python3 scripts/sync_codeforces.py' to update locally or trigger GitHub Actions.
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int t,a,b,c;
+    cin>>t;
+    while(t--){
+        cin>>a>>b>>c;
+        if (((a+b+c)%9||(a+b+c)/9>min({a,b,c})))
+            cout << "NO" << endl;
+        else
+            cout << "YES" << endl;
+    }
+}

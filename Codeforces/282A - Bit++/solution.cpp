@@ -14,6 +14,27 @@
  * Link: https://codeforces.com/contest/282/submission/182990642
  */
 
-// Source code pending synchronization.
-// View on Codeforces: https://codeforces.com/contest/282/submission/182990642
-// Run 'python3 scripts/sync_codeforces.py' to update locally or trigger GitHub Actions.
+#include <iostream>
+ 
+using namespace std;
+ 
+int main() {
+	int n, a;
+	cin >> n;
+ 
+	a = 0;
+ 
+	for (int i = 0; i < n; i++) {
+		string s;
+		cin >> s;
+		if (s[1] == '-') {
+			a--;
+		} else {
+			a++;
+		}
+	}
+ 
+	cout << a;
+ 
+	return 0;
+}

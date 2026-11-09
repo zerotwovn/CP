@@ -14,6 +14,19 @@
  * Link: https://codeforces.com/contest/339/submission/183572381
  */
 
-// Source code pending synchronization.
-// View on Codeforces: https://codeforces.com/contest/339/submission/183572381
-// Run 'python3 scripts/sync_codeforces.py' to update locally or trigger GitHub Actions.
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    string s = "";
+    getline(cin,s);
+    sort(s.begin(),s.end());
+    for (int i= 0;i < s.size();i++)
+        if((i != s.size()-1) && (s[i] >= '0' && s[i] <= '9'))
+            cout << s[i] << "+";
+    cout << s[s.size()-1];
+    return 0;
+}

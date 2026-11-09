@@ -14,5 +14,19 @@
  * Link: https://codeforces.com/contest/1057/submission/177938107
  */
 
-// Source code pending synchronization.
-// View on Codeforces: https://codeforces.com/contest/1057/submission/177938107
+#include<bits/stdc++.h>
+using namespace std;
+long long n;long long a[200005];
+void kiemtra(int dem){
+	if(dem!=0) 
+	    {kiemtra(a[i]);cout<<dem<<" ";}
+	
+}
+int main(){
+	cin>>n;
+	
+	for(int i=2;i<=n;i++) 
+	    cin>>a[i];
+	kiemtra(n);
+	return 0;
+}

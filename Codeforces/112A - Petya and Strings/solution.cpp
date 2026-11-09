@@ -14,6 +14,31 @@
  * Link: https://codeforces.com/contest/112/submission/182992302
  */
 
-// Source code pending synchronization.
-// View on Codeforces: https://codeforces.com/contest/112/submission/182992302
-// Run 'python3 scripts/sync_codeforces.py' to update locally or trigger GitHub Actions.
+#include <iostream>
+ 
+using namespace std;
+ 
+int main() {
+    string a,b;
+    getline(cin,a);
+    getline(cin,b);
+    for (int i = 0;i < a.size();i++) {
+        if(a[i] < 97)
+            a[i]+=32;
+        if(b[i] < 97)
+            b[i]+=32;
+    }
+    int dem = 0;
+    for(int i = 0;i < a.size();i++)
+        if(a[i] != b[i]) {
+            if(int(a[i]) < int(b[i]))
+                {cout << -1;dem++;break;}
+            if(int(a[i]) > int(b[i]))
+                {cout << 1;dem++;break;}
+            
+        }
+    if(dem == 0)
+        cout << 0;
+    
+	return 0;
+}

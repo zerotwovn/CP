@@ -14,5 +14,18 @@
  * Link: https://codeforces.com/contest/4/submission/174056720
  */
 
-// Source code pending synchronization.
-// View on Codeforces: https://codeforces.com/contest/4/submission/174056720
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a;
+    cin >> a;
+    if (a/2 + a/2 == a)
+        cout << "Yes";
+    else
+        cout << "No";
+
+    return 0;
+}

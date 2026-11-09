@@ -14,6 +14,45 @@
  * Link: https://codeforces.com/contest/749/submission/174062779
  */
 
-// Source code pending synchronization.
-// View on Codeforces: https://codeforces.com/contest/749/submission/174062779
-// Run 'python3 scripts/sync_codeforces.py' to update locally or trigger GitHub Actions.
+#include <bits/stdc++.h>
+using namespace std;
+#define int long long
+int32_t main(){
+    int n;
+    cin>>n;
+    char a[n];
+    queue<int> d,r;
+    for(int i=0;i<n;i++){
+        cin>>a[i];
+        if(a[i]=='D') d.push(i);
+        else r.push(i);
+    }
+    if(r.empty()){
+        cout<<"D";
+        return 0;
+    }
+    else if(d.empty()){
+        cout<<"R";
+        return 0;
+    }
+    while(true){
+        if(d.front()<r.front()){
+            r.pop();
+            d.push(d.front()+n);
+            d.pop();
+        }
+        else{
+            d.pop();
+            r.push(r.front()+n);
+            r.pop();
+        }
+        if(r.empty()){
+            cout<<"D";
+            return 0;
+        }
+        else if(d.empty()){
+            cout<<"R";
+            return 0;
+        }
+    }
+}

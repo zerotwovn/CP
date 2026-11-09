@@ -14,6 +14,37 @@
  * Link: https://codeforces.com/contest/381/submission/174058853
  */
 
-// Source code pending synchronization.
-// View on Codeforces: https://codeforces.com/contest/381/submission/174058853
-// Run 'python3 scripts/sync_codeforces.py' to update locally or trigger GitHub Actions.
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int n;
+    cin>>n;
+    int a[n];
+    for(int i=0;i<n;i++) cin>>a[i];
+    int l=0,r=n-1,x=0,y=0,t=1;
+    while(l<=r){
+        if(t==1){
+            if(a[l]>=a[r]){
+                x+=a[l];
+                l++;
+            }
+            else{
+                x+=a[r];
+                r--;
+            }
+        }
+        else{
+            if(a[l]>=a[r]){
+                y+=a[l];
+                l++;
+            }
+            else{
+                y+=a[r];
+                r--;
+            }
+        }
+        t*=-1;
+    }
+    cout<<x<<" "<<y;
+}

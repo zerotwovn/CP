@@ -14,6 +14,23 @@
  * Link: https://codeforces.com/contest/1324/submission/177938989
  */
 
-// Source code pending synchronization.
-// View on Codeforces: https://codeforces.com/contest/1324/submission/177938989
-// Run 'python3 scripts/sync_codeforces.py' to update locally or trigger GitHub Actions.
+#include<bits/stdc++.h>
+using namespace std;
+ 
+int main(){
+	int n,dem = 0,MAX;
+	string s;
+	cin>>n;
+	while(n--){
+	cin>>s;
+	for(int i=0;i<=s.size();i++)
+	    if(s[i]=='L') 
+	        dem++;
+	    else{
+	        MAX=max(MAX,dem);
+	        dem=0;	
+	    }
+	cout<<MAX+1<<endl;MAX=0;
+	}	
+	return 0;
+}

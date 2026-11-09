@@ -14,6 +14,34 @@
  * Link: https://codeforces.com/contest/59/submission/183586644
  */
 
-// Source code pending synchronization.
-// View on Codeforces: https://codeforces.com/contest/59/submission/183586644
-// Run 'python3 scripts/sync_codeforces.py' to update locally or trigger GitHub Actions.
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    string s;
+    cin >> s;
+    int demthuong = 0;
+    int demhoa = 0;
+    int n = s.size();
+    for (int i =0 ;i < n;i++) {
+        if(s[i] >= 'A' && s[i] <= 'Z')
+            demhoa++;
+        if(s[i] >= 'a' && s[i] <= 'z')
+            demthuong++;
+    }
+    if(demhoa > demthuong) {
+        for (int i = 0;i < n;i++)
+            if(s[i] >= 'a' && s[i] <= 'z')
+                s[i]-=32;
+    }
+    else {
+        for (int i = 0;i < n;i++)
+            if(s[i] >= 'A' && s[i] <= 'Z')
+                s[i]+=32;
+    }
+    cout << s;
+    return 0;
+}

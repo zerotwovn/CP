@@ -14,6 +14,30 @@
  * Link: https://codeforces.com/contest/1760/submission/181946008
  */
 
-// Source code pending synchronization.
-// View on Codeforces: https://codeforces.com/contest/1760/submission/181946008
-// Run 'python3 scripts/sync_codeforces.py' to update locally or trigger GitHub Actions.
+#include<bits/stdc++.h>
+using namespace std;
+ 
+
+int main(){
+    long long t;
+    cin >> t;
+    while(t--) {
+        long long n = 0;
+        cin >> n;
+        long long a[n] = {};
+        long long tmp[n] = {};
+        for (int i = 0;i < n;i++) {
+            cin >> a[i];tmp[i] = a[i];
+        }
+        sort(tmp,tmp+n,greater<int>());
+        for (int i = 0;i < n;i++)
+            if(a[i] != tmp[0])
+                cout << a[i] - tmp[0] << " ";
+            else
+                cout << tmp[0] - tmp[1] << " ";
+        cout << endl;
+                
+    }
+	
+	return 0;
+}

@@ -14,6 +14,20 @@
  * Link: https://codeforces.com/contest/617/submission/183586169
  */
 
-// Source code pending synchronization.
-// View on Codeforces: https://codeforces.com/contest/617/submission/183586169
-// Run 'python3 scripts/sync_codeforces.py' to update locally or trigger GitHub Actions.
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int x;
+    cin >> x;
+    if(x%5 == 0) {
+        cout << x/5;
+    }
+    else
+        cout << x/5+1;
+
+    return 0;
+}

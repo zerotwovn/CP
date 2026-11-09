@@ -14,5 +14,28 @@
  * Link: https://codeforces.com/contest/1463/submission/174682336
  */
 
-// Source code pending synchronization.
-// View on Codeforces: https://codeforces.com/contest/1463/submission/174682336
+
+#include <bits/stdc++.h>
+
+using namespace std;
+int Min (int a,int b,int c) {
+    int nn = min(a,b);
+    return min(nn,c);
+}
+int main()
+{
+    int t;
+    cin >> t;
+    while (t--) {
+        int a,b,c;
+        cin >> a >> b >> c;
+        if ((((a+b+c) % 9) > Min(a,b,c)) || ((a+b+c) / 9 > Min(a,b,c))) 
+            cout << "NO" << endl;
+        else
+            cout << "YES" << endl;
+            
+            
+    }
+    
+    return 0;
+}

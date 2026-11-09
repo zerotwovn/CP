@@ -14,6 +14,32 @@
  * Link: https://codeforces.com/contest/1739/submission/174034500
  */
 
-// Source code pending synchronization.
-// View on Codeforces: https://codeforces.com/contest/1739/submission/174034500
-// Run 'python3 scripts/sync_codeforces.py' to update locally or trigger GitHub Actions.
+#include<bits/stdc++.h>
+using namespace std;
+#define int long long
+const int mod=998244353;  
+int C(int n,int m){
+    int ans = 1;
+    for(int i =1;i<=m;i++){
+        ans = ans * (n-m+i)/i; 
+    }
+    return ans;
+}
+signed main()
+{
+    int a[61],b[61];
+    a[2]=1;b[2]=0;
+    for(int i=4;i<=60;i+=2)
+    {
+        a[i]=(C(i-1,i/2-1)+b[i-2])%mod;
+        b[i]=(C(i,i/2)-a[i]-1)%mod;
+    }
+    int t;cin>>t;
+    while(t--)
+    {
+        int x;cin>>x;
+        cout<<a[x]<<" "<<b[x]<<" "<<1<<"\n";
+    }
+ 
+}
+

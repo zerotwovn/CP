@@ -14,5 +14,19 @@
  * Link: https://codeforces.com/contest/546/submission/183580208
  */
 
-// Source code pending synchronization.
-// View on Codeforces: https://codeforces.com/contest/546/submission/183580208
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    long long a,b,c;
+    cin >> a >> b >> c;
+    long long s = 0;
+    for (int i = 1;i <= c;i++)
+        s+=(a*i);
+    cout << abs(b-s);
+
+    return 0;
+}

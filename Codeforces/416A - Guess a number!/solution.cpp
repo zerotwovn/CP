@@ -14,6 +14,31 @@
  * Link: https://codeforces.com/contest/416/submission/174060114
  */
 
-// Source code pending synchronization.
-// View on Codeforces: https://codeforces.com/contest/416/submission/174060114
-// Run 'python3 scripts/sync_codeforces.py' to update locally or trigger GitHub Actions.
+#include <bits/stdc++.h>
+using namespace std;
+#define int long long
+int32_t main(){
+    int n;
+    cin>>n;
+    int x=-2000000000,y=2000000000;
+    while(n--){
+        string a;
+        char b;
+        int num=0;
+        cin>>a>>num>>b;
+        if(b=='Y'){
+            if(a==">") x=max(x,num+1);
+            else if(a==">=") x=max(x,num);
+            else if(a=="<") y=min(y,num-1);
+            else if(a=="<=") y=min(y,num);
+        }
+        else{
+            if(a==">") y=min(y,num);
+            else if(a==">=") y=min(y,num-1);
+            else if(a=="<") x=max(x,num);
+            else if(a=="<=") x=max(x,num+1);
+        }
+    }
+    if(y>=x) cout<<x;
+    else cout<<"Impossible";
+}

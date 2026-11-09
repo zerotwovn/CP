@@ -14,6 +14,20 @@
  * Link: https://codeforces.com/contest/1042/submission/174950659
  */
 
-// Source code pending synchronization.
-// View on Codeforces: https://codeforces.com/contest/1042/submission/174950659
-// Run 'python3 scripts/sync_codeforces.py' to update locally or trigger GitHub Actions.
+#include<iostream>
+using namespace std;
+int main()
+{
+	long long n ,m,x;
+	long long MAX = 0,s = 0;
+    cin >> n >> m;
+	for(int i = 0 ; i < n ; i++) 
+	{
+	    cin >> x;
+	    s += x;
+	    MAX = max(x,MAX);
+	}
+	cout << max(MAX,(s+m-1)/n+1) << " ";
+	cout << MAX + m;
+	return 0;
+}

@@ -14,6 +14,22 @@
  * Link: https://codeforces.com/contest/60/submission/174059879
  */
 
-// Source code pending synchronization.
-// View on Codeforces: https://codeforces.com/contest/60/submission/174059879
-// Run 'python3 scripts/sync_codeforces.py' to update locally or trigger GitHub Actions.
+#include <bits/stdc++.h>
+using namespace std;
+#define int long long
+int32_t main(){
+    int n,m;
+    cin>>n>>m;
+    int x=1,y=n;
+    while(m--){
+        string a,b,s,d;
+        int num=0;
+        cin>>a>>b>>s>>d>>num;
+        if(s=="right")
+            x=max(x,num+1);
+        else
+            y=min(y,num-1);
+    }
+    if(y>=x) cout<<y-x+1;
+    else cout<<-1;
+}

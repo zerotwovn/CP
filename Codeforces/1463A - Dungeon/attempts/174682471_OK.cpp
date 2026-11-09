@@ -14,5 +14,13 @@
  * Link: https://codeforces.com/contest/1463/submission/174682471
  */
 
-// Source code pending synchronization.
-// View on Codeforces: https://codeforces.com/contest/1463/submission/174682471
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int t,a,b,c;
+    cin>>t;
+    while(t--){
+        cin>>a>>b>>c;
+        cout<<((a+b+c)%9||(a+b+c)/9>min({a,b,c})?"NO\n":"YES\n");
+    }
+}

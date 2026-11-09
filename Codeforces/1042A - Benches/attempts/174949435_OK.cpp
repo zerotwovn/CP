@@ -14,5 +14,18 @@
  * Link: https://codeforces.com/contest/1042/submission/174949435
  */
 
-// Source code pending synchronization.
-// View on Codeforces: https://codeforces.com/contest/1042/submission/174949435
+#include<iostream>
+using namespace std;
+int main()
+{
+	long long n ,m ,s = 0 ,x,MAX = 0;
+    cin >> n >> m;
+	for(int i = 0 ; i < n ; i++) 
+	{
+	    cin >> x;
+	    s += x;
+	    MAX = max(x,MAX);
+	}
+	cout << max(MAX,(s+m-1)/n+1) << " " << MAX + m;
+	return 0;
+}
